@@ -1,0 +1,70 @@
+[
+ {
+  "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/top.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/top.sv",
+    "InstLine" : 10,
+    "InstName" : "your_instance_name",
+    "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/top.sv",
+    "InstLine" : 16,
+    "InstName" : "clkdiv",
+    "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_CLKDIV"
+   },
+   {
+    "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/top.sv",
+    "InstLine" : 22,
+    "InstName" : "hdmi_name",
+    "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+    "ModuleLine" : 6,
+    "ModuleName" : "hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "InstLine" : 20,
+      "InstName" : "video_timing",
+      "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "ModuleLine" : 104,
+      "ModuleName" : "video_timing"
+     },
+     {
+      "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "InstLine" : 22,
+      "InstName" : "tmds_encoder_red",
+      "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "ModuleLine" : 177,
+      "ModuleName" : "tmds_encoder"
+     },
+     {
+      "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "InstLine" : 23,
+      "InstName" : "tmds_encoder_blue",
+      "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "ModuleLine" : 177,
+      "ModuleName" : "tmds_encoder"
+     },
+     {
+      "InstFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "InstLine" : 24,
+      "InstName" : "tmds_encoder_green",
+      "ModuleFile" : "C:/Users/tomek/Desktop/FPGA stuff/Tang Nano 9K/Projects/hdmi_test/src/hdmi.sv",
+      "ModuleLine" : 177,
+      "ModuleName" : "tmds_encoder"
+     }
+    ]
+   }
+  ]
+ }
+]

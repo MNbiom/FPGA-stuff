@@ -1,0 +1,103 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sun Oct 04 14:42:20 2026
+[*]
+[dumpfile] "C:\Users\admin\Desktop\FPGA_stuff\SystemVerilog\MNPU2\MNPU2.vcd"
+[dumpfile_mtime] "Sun Oct 04 14:41:17 2026"
+[dumpfile_size] 242366
+[savefile] "C:\Users\admin\Desktop\FPGA_stuff\SystemVerilog\MNPU2\MNPU2.gtkw"
+[timestart] 72
+[size] 1100 860
+[pos] -1 -1
+*-5.000000 90 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] MNPU2_tb.
+[treeopen] MNPU2_tb.dut.
+[treeopen] MNPU2_tb.dut.alu_name.
+[treeopen] MNPU2_tb.dut.regs_name.
+[sst_width] 211
+[signals_width] 228
+[sst_expanded] 1
+[sst_vpaned_height] 246
+@28
+MNPU2_tb.clk
+MNPU2_tb.reset
+@25
+pc_name.page_out[7:0]
+@24
+pc_name.pc_out[5:0]
+@28
+rom_name.instruction_out[7:0]
+@200
+-
+@24
+MNPU2_tb.dut.alu_name.acc_out[7:0]
+MNPU2_tb.dut.regs_name.\register[1][7:0]
+MNPU2_tb.dut.regs_name.\register[2][7:0]
+MNPU2_tb.dut.regs_name.\register[3][7:0]
+MNPU2_tb.dut.regs_name.\register[4][7:0]
+MNPU2_tb.dut.regs_name.\register[5][7:0]
+MNPU2_tb.dut.regs_name.\register[6][7:0]
+MNPU2_tb.dut.regs_name.\register[7][7:0]
+@200
+-
+@24
+MNPU2_tb.dut.io_name.\out[0][7:0]
+@200
+-
+@28
+MNPU2_tb.dut.alu_name.cout_out
+MNPU2_tb.dut.alu_name.zero_out
+MNPU2_tb.dut.alu_name.msb_lsb_out
+@200
+-
+@24
+MNPU2_tb.dut.ram_name.\ram[0][7:0]
+MNPU2_tb.dut.ram_name.\ram[1][7:0]
+MNPU2_tb.dut.ram_name.\ram[2][7:0]
+MNPU2_tb.dut.ram_name.\ram[3][7:0]
+MNPU2_tb.dut.ram_name.\ram[4][7:0]
+MNPU2_tb.dut.ram_name.\ram[5][7:0]
+MNPU2_tb.dut.ram_name.\ram[6][7:0]
+MNPU2_tb.dut.ram_name.\ram[7][7:0]
+@200
+-
+@24
+stack_name.dsp[3:0]
+MNPU2_tb.dut.stack_name.\dstack[0][7:0]
+MNPU2_tb.dut.stack_name.\dstack[1][7:0]
+MNPU2_tb.dut.stack_name.\dstack[2][7:0]
+MNPU2_tb.dut.stack_name.\dstack[3][7:0]
+MNPU2_tb.dut.stack_name.\dstack[4][7:0]
+MNPU2_tb.dut.stack_name.\dstack[5][7:0]
+MNPU2_tb.dut.stack_name.\dstack[6][7:0]
+MNPU2_tb.dut.stack_name.\dstack[7][7:0]
+@200
+-
+@22
+stack_name.csp[3:0]
+@24
+MNPU2_tb.dut.stack_name.\cstack[0][13:0]
+MNPU2_tb.dut.stack_name.\cstack[1][13:0]
+MNPU2_tb.dut.stack_name.\cstack[2][13:0]
+MNPU2_tb.dut.stack_name.\cstack[3][13:0]
+MNPU2_tb.dut.stack_name.\cstack[4][13:0]
+MNPU2_tb.dut.stack_name.\cstack[5][13:0]
+MNPU2_tb.dut.stack_name.\cstack[6][13:0]
+MNPU2_tb.dut.stack_name.\cstack[7][13:0]
+@200
+-
+@24
+MNPU2_tb.dut.alu_name.sum_out[7:0]
+@22
+MNPU2_tb.dut.alu_name.sum[7:0]
+@28
+MNPU2_tb.dut.alu_name.imm
+@200
+-
+@28
+MNPU2_tb.dut.exe_name.toggle_exec_out
+MNPU2_tb.dut.exe_name.flush_in
+@200
+-
+[pattern_trace] 1
+[pattern_trace] 0

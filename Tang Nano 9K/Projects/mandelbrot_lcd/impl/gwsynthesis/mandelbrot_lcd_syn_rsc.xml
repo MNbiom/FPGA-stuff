@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Register="28" Lut="33" T_Register="155(28)" T_Alu="89(0)" T_Lut="436(33)" T_MULT18X18="3(0)">
- <SubModule name="lcd" Register="82" Alu="6" Lut="321" T_Register="82(82)" T_Alu="6(6)" T_Lut="321(321)"/>
- <SubModule name="mandelbrot" Register="45" Alu="83" Lut="82" MULT18X18="3" T_Register="45(45)" T_Alu="83(83)" T_Lut="82(82)" T_MULT18X18="3(3)"/>
-</Module>

@@ -1,0 +1,35 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Sat Aug 29 22:28:44 2026
+[*]
+[dumpfile] "C:\Users\tomek\Desktop\FPGA stuff\SystemVerilog\mandelbrot\mandelbrot.vcd"
+[dumpfile_mtime] "Sat Aug 29 22:09:13 2026"
+[dumpfile_size] 9326998
+[savefile] "C:\Users\tomek\Desktop\FPGA stuff\SystemVerilog\mandelbrot\mandelbrot.gtkw"
+[timestart] 0
+[size] 1000 594
+[pos] 390 206
+*-5.601491 50 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mandelbrot_tb.
+[sst_width] 211
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 152
+@24
+mandelbrot_tb.clk
+mandelbrot_tb.x[5:0]
+mandelbrot_tb.y[5:0]
+mandelbrot_tb.dut.loop
+@420
+mandelbrot_tb.dut.cr[15:0]
+mandelbrot_tb.dut.ci[15:0]
+mandelbrot_tb.dut.zr[15:0]
+mandelbrot_tb.dut.zi[15:0]
+mandelbrot_tb.dut.zr_zr[15:0]
+mandelbrot_tb.dut.zi_zi[15:0]
+mandelbrot_tb.dut.zr_zi[15:0]
+@24
+mandelbrot_tb.dut.n[4:0]
+mandelbrot_tb.color
+[pattern_trace] 1
+[pattern_trace] 0

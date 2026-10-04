@@ -1,0 +1,31 @@
+NOOP
+IMM R2
+1
+
+; IN 7
+IMA
+228
+RST R1
+OUT 0
+
+start:
+CMP R2
+BRC EQ
+0
+
+CMP 0
+BRC LSB
+odd
+	RSH R1 ; even
+	AST R1
+	OUT 0
+	BRC TRUE
+	start
+odd:
+LSH R1
+ADD R1
+ADD R2
+RST R1
+OUT 0
+BRC TRUE
+start

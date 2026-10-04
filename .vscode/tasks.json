@@ -1,0 +1,53 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build SystemVerilog",
+            "type": "shell",
+            "command": "iverilog",
+            "args": [
+                "-g2012",
+                "-o",
+                "${fileDirname}\\sim.vvp",
+                "${fileDirname}\\*.sv",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run vvp sim",
+            "type": "shell",
+            "command": "vvp",
+            "args": [
+                "${fileDirname}\\sim.vvp"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run GTKwave",
+            "type": "shell",
+            "command": "gtkwave",
+            "args": [
+                "${fileDirname}\\*.vcd"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "Load GTKwave",
+            "type": "shell",
+            "command": "gtkwave",
+            "args": [
+                "${fileDirname}\\*.gtkw"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

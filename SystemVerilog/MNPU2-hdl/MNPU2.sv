@@ -7,8 +7,8 @@ module MNPU2 (
     input in_confirm,
     input [7:0] in [0:7],
 
-    output logic out_info [0:7],
-    output logic [7:0] out [0:7]
+    output wire out_info [0:7],
+    output wire [7:0] out [0:7]
 );
     logic toggle_exec, flush, zero, cout, msb_lsb;
     logic [5:0] pc, cstack_pc;

@@ -119,3 +119,5 @@ if len(sys.argv) > 1:
 
     code = open(f"{OUTPUT_FOLDER_PATH}\\{OUTPUT_FILE_NAME}.bin", "w")
     code.write(bin_output)
+    # while True:
+    #     pass

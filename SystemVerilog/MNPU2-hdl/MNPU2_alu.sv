@@ -82,10 +82,10 @@ module alu(
                     {cout, sum} = {1'b0, acc_out} + {1'b0, ~reg_in} + cout_out;
                 end
                 29: begin // NEG
-                    {cout, sum} = ~reg_in + 1'b1;
+                    {cout, sum} = {1'b0, ~reg_in} + 1'b1;
                 end
                 30: begin // NEGA
-                    {cout, sum} = ~acc_out + 1'b1;
+                    {cout, sum} = {1'b0, ~acc_out} + 1'b1;
                 end
             endcase
         end

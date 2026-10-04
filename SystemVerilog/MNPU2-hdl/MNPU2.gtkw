@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
-[*] Sun Oct 04 14:42:20 2026
+[*] Sun Oct 04 16:51:39 2026
 [*]
-[dumpfile] "C:\Users\admin\Desktop\FPGA_stuff\SystemVerilog\MNPU2\MNPU2.vcd"
-[dumpfile_mtime] "Sun Oct 04 14:41:17 2026"
-[dumpfile_size] 242366
-[savefile] "C:\Users\admin\Desktop\FPGA_stuff\SystemVerilog\MNPU2\MNPU2.gtkw"
-[timestart] 72
+[dumpfile] "C:\Users\admin\Desktop\VSC\FPGA-stuff\SystemVerilog\MNPU2-hdl\MNPU2.vcd"
+[dumpfile_mtime] "Sun Oct 04 16:45:56 2026"
+[dumpfile_size] 485338
+[savefile] "C:\Users\admin\Desktop\VSC\FPGA-stuff\SystemVerilog\MNPU2-hdl\MNPU2.gtkw"
+[timestart] 0
 [size] 1100 860
-[pos] -1 -1
-*-5.000000 90 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[pos] 323 78
+*-5.000000 33 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] MNPU2_tb.
 [treeopen] MNPU2_tb.dut.
 [treeopen] MNPU2_tb.dut.alu_name.
@@ -21,9 +21,8 @@
 @28
 MNPU2_tb.clk
 MNPU2_tb.reset
-@25
-pc_name.page_out[7:0]
 @24
+pc_name.page_out[7:0]
 pc_name.pc_out[5:0]
 @28
 rom_name.instruction_out[7:0]
@@ -50,6 +49,8 @@ MNPU2_tb.dut.alu_name.zero_out
 MNPU2_tb.dut.alu_name.msb_lsb_out
 @200
 -
+@23
+ram_name.poi[7:0]
 @24
 MNPU2_tb.dut.ram_name.\ram[0][7:0]
 MNPU2_tb.dut.ram_name.\ram[1][7:0]

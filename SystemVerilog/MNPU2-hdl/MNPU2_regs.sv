@@ -33,7 +33,7 @@ module regs (
             if (toggle_exec_in) begin
                 if ((address_buffer != 0) && writeback) register[address_buffer] <= data_in;
                 case (instruction_in[7:3])
-                    0, 6, 7, 8, 9, 13: begin //reg writeback
+                    0, 6, 7, 8, 9, 13, 29: begin //reg writeback
                         writeback <= 1;
                     end
                 endcase

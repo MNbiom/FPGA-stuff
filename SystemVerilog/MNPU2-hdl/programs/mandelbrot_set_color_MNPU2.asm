@@ -444,8 +444,8 @@ MST
         n
         POI R7
         MLD
-        BRC ZERO
-        dont_draw
+        ;BRC ZERO
+        ;dont_draw
 
         OUT 7
         IMM R7

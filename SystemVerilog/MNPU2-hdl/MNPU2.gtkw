@@ -1,14 +1,14 @@
 [*]
 [*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
-[*] Sun Oct 04 16:51:39 2026
+[*] Tue Oct 06 12:24:47 2026
 [*]
 [dumpfile] "C:\Users\admin\Desktop\VSC\FPGA-stuff\SystemVerilog\MNPU2-hdl\MNPU2.vcd"
-[dumpfile_mtime] "Sun Oct 04 16:45:56 2026"
-[dumpfile_size] 485338
+[dumpfile_mtime] "Tue Oct 06 12:24:29 2026"
+[dumpfile_size] 224526
 [savefile] "C:\Users\admin\Desktop\VSC\FPGA-stuff\SystemVerilog\MNPU2-hdl\MNPU2.gtkw"
 [timestart] 0
 [size] 1100 860
-[pos] 323 78
+[pos] -1 -1
 *-5.000000 33 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] MNPU2_tb.
 [treeopen] MNPU2_tb.dut.
@@ -49,7 +49,7 @@ MNPU2_tb.dut.alu_name.zero_out
 MNPU2_tb.dut.alu_name.msb_lsb_out
 @200
 -
-@23
+@25
 ram_name.poi[7:0]
 @24
 MNPU2_tb.dut.ram_name.\ram[0][7:0]

@@ -15,7 +15,7 @@ All other commands can be found in tasks.json
     INC R7
     POI R7
     ```
-    in original implementation you have to have to do sth like this:
+    in original implementation you have to do sth like this:
     ```asm
     INC R7
     NOOP ; or any other instruction to create this space
